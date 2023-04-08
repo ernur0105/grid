@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blue;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 150px;
+    grid-gap: 15px;
+    
+}
+.header1{
+    background-color: green;
+    grid-row: 1/4;
+}
+.header2{
+    background-color: green;
+    grid-column: 2/4;
+}
+.header3{
+    background-color: red;
+    
+}
+.header4{
+    background-color: green;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.header5{
+    background-color: orange;
+}
+.header6{
+    background-color: red;
+}
+.header7{
+    background-color: red;
+}
+.header8{
+    background-color: orange;
+}
